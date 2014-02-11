@@ -1,0 +1,44 @@
+/* ***********************************************************
+	NAVIGATION
+*********************************************************** */
+nav {
+	height: 78px;
+	padding-bottom: 5px;
+}
+
+.top-ribbon {
+	height: 5px;
+	background-color: rgb(192, 23, 104);
+}
+
+nav ul {
+	width: 75%;
+	min-width: 280px;
+	max-width: 826px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+nav li {
+	float: right;
+	display: inline-block;
+	padding: 15px 10px 2px;
+	margin: 0 6px;
+	-webkit-border-radius: 0 0 7px 7px;
+	-moz-border-radius: 0 0 7px 7px;
+	border-radius: 0 0 7px 7px;
+	cursor: pointer;
+}
+
+.win nav li {
+	padding: 12px 10px 5px;
+}
+
+nav li:hover {
+	background-color: rgb(192, 23, 104);
+	text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+/* ***********************************************************
+	
+*********************************************************** */
