@@ -79,8 +79,19 @@ nav li {
 }
 
 nav li:hover {
+
 	background-color: rgba(51, 153, 102, 0.6);
 	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 	color: #FFF;
 ;
 }
+
+	background-color: rgb(192, 23, 104);
+	text-shadow: 1px 1px 3px rgb(0, 0, 0);
+	color: #FFF;
+}
+
+/* ***********************************************************
+
+*********************************************************** */
+
