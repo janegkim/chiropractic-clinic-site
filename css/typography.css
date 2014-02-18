@@ -26,6 +26,7 @@
 ************** */
 
 .nav-font {
-	font: 25px/35px 'Matchbook', Arial, sans-serif;
-	letter-spacing: -1px;
+	font: 16px/45px 'AlexandriaFLFBold', Arial, sans-serif;
+	letter-spacing: -0.5px;
+	color: #000;
 }

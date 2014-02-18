@@ -1,14 +1,58 @@
 /* ***********************************************************
+	BASIC
+*********************************************************** */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	body {
+		background-size: 50%;
+	}
+}
+
+.site-header {
+	min-width: 280px;
+	max-width: 826px;
+	margin: 0 auto;
+}
+
+.site-header {
+	padding: 0 0 22px;
+}
+
+.site-header .tagline {
+	margin: 0;
+}
+
+.sparator {
+	width: 100%;
+}
+
+.site-header, .about-me, .from-my-blog {
+	width: 75%;
+}
+
+@media all and (min-width:601px) and (max-width:1020px) {
+	.site-header, .about-me, .from-my-blog {
+		width: 82%;
+	}
+}
+
+.works, .works-hex, nav, .blog-excerpts-wrapper {
+	background-color: rgba(0,0,0,0.4);
+}
+
+
+/* ***********************************************************
 	NAVIGATION
 *********************************************************** */
 nav {
 	height: 78px;
 	padding-bottom: 5px;
+	background-image: url('../img/tweed.png');
+	opacity: 0.56;
 }
 
 .top-ribbon {
 	height: 5px;
-	background-color: rgb(192, 23, 104);
+	background-color: rgba(51, 153, 102, 0.8);
 }
 
 nav ul {
@@ -22,11 +66,11 @@ nav ul {
 nav li {
 	float: right;
 	display: inline-block;
-	padding: 15px 10px 2px;
+	padding: 15px 15px 10px;
 	margin: 0 6px;
-	-webkit-border-radius: 0 0 7px 7px;
-	-moz-border-radius: 0 0 7px 7px;
-	border-radius: 0 0 7px 7px;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
 	cursor: pointer;
 }
 
@@ -35,10 +79,8 @@ nav li {
 }
 
 nav li:hover {
-	background-color: rgb(192, 23, 104);
-	text-shadow: 1px 1px 3px rgb(0, 0, 0);
+	background-color: rgba(51, 153, 102, 0.6);
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+	color: #FFF;
+;
 }
-
-/* ***********************************************************
-	
-*********************************************************** */
